@@ -132,4 +132,4 @@ print $self->{'_STR'}  ;
 print $cierre ;
 }
 
-1; #todas las clases tienen quedevolver un "true"
+1; 
