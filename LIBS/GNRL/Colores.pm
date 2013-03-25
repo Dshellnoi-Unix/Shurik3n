@@ -1,15 +1,20 @@
-######
-#             PACKTAGE PARA DAR SALIDA EN PANTALLA            
-#                         COLOREADA 
-#                          
-#   CLASE      :        Colores.pm                                                             
+####
+#  _________.__                 .__ __    ________         
+# /   _____/|  |__  __ _________|__|  | __\_____  \  ____  
+# \_____  \ |  |  \|  |  \_  __ \  |  |/ /  _(__  < /    \ 
+# /        \|   Y  \  |  /|  | \/  |    <  /       \   |  \
+#/_______  /|___|  /____/ |__|  |__|__|_ \/______  /___|  /
+#        \/      \/                     \/       \/     \/ 
+#
+#                    Dshellnoi Unix  2013
+#                      
+#   CLASE      :        LIBS::GNRL::Colores.pm                                                             
 #   CREADO POR   :      Dshellnoi Unix   
 #   CORREO       :      templesec0day@gmail.com                    
 #   FECHA:              20-2-2013                             
-#   ACTUALIZACION:      17-3-2013 
-#   VERSION      :      0.2                            
-#   METODOS      :      pinta(); 
-#   PARAMETROS pinta(): Color , string para pintar                                                                
+#   ACTUALIZACION:      25-3-2013 
+#   VERSION      :      0.1                            
+#                                                                
 #   LICENCIA:                                                 
 #            SUJETO A LA LICENCIA SHURIK3N WEB TOOL           
 #
@@ -32,30 +37,6 @@
 #                        #CIAN_CLARO 
 #                        #BLANCO
 #                        #CIERRE 
-#
-#           ::::IMPLEMENTACION::::
-#
-#            LLAMAMOS A LA LIBRERIA
-#
-#           use LIBS::GNRL::Colores;   
-#
-#          #INSTANCIAMOS LA CLASE
-#
-#          $test =  LIBS::GNRL::Colores->new(); 
-#
-#          EJEMPLO 1: PASO DIRECTO DE PARAMETROS 
-#          $test->pinta("AMARILLO", "OKOKOK\n");                
-#           
-#          EJEMPLO 2 :DECLARANDO VARIABLES PARA PASAR PARAMETROS
-#                
-#          $color = "ROJO" ;
-#          $texto = "OKMAKEY\n" ;
-#
-#          $test_dos =  LIBS::GNRL::Colores->new(); 
-#          $test_dos->pinta($color, $texto);
-#
-#
-#          
 #
 ######
 
@@ -101,7 +82,7 @@ my %col=(
 ##
 
 sub new {
-    my($class, $data, $cmd ) = @_; #Agregamos las variables en la lista para crear el objeto y bendecir despues
+    my($class, $data, $cmd ) = @_; 
     
     my $self = { 
                  _COLOR => undef, 
