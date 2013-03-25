@@ -8,7 +8,7 @@
 #
 #                    Dshellnoi Unix  2013
 #                      
-#   CLASE      :        LIBS::GNRL::Colores.pm                                                             
+#   CLASE      :        LIBS::GNRL::Colores                                                            
 #   CREADO POR   :      Dshellnoi Unix   
 #   CORREO       :      templesec0day@gmail.com                    
 #   FECHA:              20-2-2013                             

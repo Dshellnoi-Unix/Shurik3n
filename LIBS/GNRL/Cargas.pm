@@ -8,7 +8,7 @@
 #
 #                    Dshellnoi Unix  2013
 #                      
-#   CLASE      :        LIBS::GNRL::Cargas.pm                                                             
+#   CLASE      :        LIBS::GNRL::Cargas                                                            
 #   CREADO POR   :      Dshellnoi Unix   
 #   CORREO       :      templesec0day@gmail.com                    
 #   FECHA:              15-3-2013                             
