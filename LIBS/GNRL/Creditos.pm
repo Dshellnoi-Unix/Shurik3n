@@ -1,7 +1,3 @@
-#=================================================#
-#          PACKTAGE PARA LOS CREDITOS             #
-#               Dshellnoi Unix                    #
-#=================================================#
 
 package creditos;
 
@@ -23,6 +19,3 @@ $banner ='
                    "Ingeriero de software" => "Dshellnoi Unix"
 
 );
-
-
-1;
