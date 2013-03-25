@@ -8,7 +8,7 @@
 #
 #                    Dshellnoi Unix  2013
 #                      
-#   CLASE      :        LIBS::GNRL::Cmd.pm                                                             
+#   CLASE      :        LIBS::GNRL::Cmd                                                            
 #   CREADO POR   :      Dshellnoi Unix   
 #   CORREO       :      templesec0day@gmail.com                    
 #   FECHA:              12-2-2013                             
