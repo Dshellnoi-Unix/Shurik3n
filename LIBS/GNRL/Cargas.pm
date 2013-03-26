@@ -8,7 +8,7 @@
 #
 #                    Dshellnoi Unix  2013
 #                      
-#   CLASE      :        LIBS::GNRL::Cargas                                                            
+#   CLASE      :        LIBS::GNRL::Cargas.pm                                                             
 #   CREADO POR   :      Dshellnoi Unix   
 #   CORREO       :      templesec0day@gmail.com                    
 #   FECHA:              15-3-2013                             
@@ -237,6 +237,37 @@ for(my $i = 0; $i < @keys ; $i ++){
        print "[$keys[$i]]-->" . $info->{$keys[$i]} ."\n" ;
       }
 }
+
+}
+
+
+
+
+sub modulo_valido
+{
+
+my($self,$modulo) = @_;
+$self->{_MODULO} = $modulo ;
+
+my @data = split("::", $self->{_MODULO});
+
+
+my @keys =(
+           "AUX", 
+           "EXPLOITS"
+        );
+
+my $cmp_key = in_array(\@keys, $data[0]);
+
+if($cmp_key == 0){
+
+  my $test =  LIBS::GNRL::Colores->new(); 
+       $test->pinta("ROJO", "[-]Load a valid module\n");
+
+      
+       goto SHELL ;
+                 }
+
 
 }
 
