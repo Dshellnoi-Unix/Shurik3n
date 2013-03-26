@@ -15,7 +15,7 @@
 #          ULTIMA ACTUALIZACION:     17-03-2013
 #
 #          LICENCIA: 
-#                  SUJETO A LA LICENCIA SHURIK3N WEB TOOL
+#                  SUJETO A LA LICENCIA SHURIK3N
 #####
 
 

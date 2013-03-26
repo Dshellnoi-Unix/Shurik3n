@@ -16,7 +16,7 @@
 #   VERSION      :      0.1                            
 #                                                                
 #   LICENCIA:                                                 
-#            SUJETO A LA LICENCIA SHURIK3N WEB TOOL           
+#            SUJETO A LA LICENCIA SHURIK3N            
 ####
 
 package LIBS::GNRL::Cmd ;
