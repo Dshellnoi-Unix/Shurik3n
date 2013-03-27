@@ -15,7 +15,7 @@
 #          ULTIMA ACTUALIZACION:     17-03-2013
 #
 #          LICENCIA: 
-#                  SUJETO A LA LICENCIA SHURIK3N
+#                  SUJETO A LA LICENCIA SHURIK3N 
 #####
 
 
@@ -104,8 +104,7 @@ sub lista_ua
 
 for(my $i=1; $i <= $#ua ; $i++ ){
      my $shw = "[$i]".$ua[$i]."\n";
-     my $test =  LIBS::GNRL::Colores->new();  
-        $test->pinta("AMARILLO", $shw); 
+     print $shw ;
     }
 }
 
