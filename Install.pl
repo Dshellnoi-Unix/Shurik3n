@@ -61,7 +61,7 @@ my @modulos = (
 
 for my $modulo (@modulos) {
         
-  $color->pinta("AMARILLO", "[+]installing $modulos[$i] \n") ;
+  $color->pinta("AMARILLO", "[+]installing $modulo \n") ;
         sleep 1;
      
         system("cpan $modulo");
