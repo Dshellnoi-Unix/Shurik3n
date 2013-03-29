@@ -59,17 +59,17 @@ my @modulos = (
               );
 
 
+for my $modulo (@modulos) {
+        
+  $color->pinta("AMARILLO", "[+]installing $modulos[$i] \n") ;
+        sleep 1;
+     
+        system("cpan $modulo");
+     
+        sleep 1;
+    }
 
-for(my $i = 0 ; $i <=  $#modulos ; $i++ ){
 
- $color->pinta("AMARILLO", "[+]installing $modulos[$i] \n") ;
-sleep 1;
-
-system("cpan -e install $modulos[$i]");
-
-sleep 1;
-
-}
 
 $color->pinta("AMARILLO", "[+]Congratulations, you can use Shurik3n\n") ;
 
