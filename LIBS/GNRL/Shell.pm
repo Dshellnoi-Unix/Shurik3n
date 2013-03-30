@@ -232,6 +232,10 @@ case "HELP"       {
                    my $ayuda = LIBS::GNRL::Help->new();
                       $ayuda->help(); 
                   }
+else              {
+                   my $test =  LIBS::GNRL::Colores->new(); 
+                      $test->pinta("ROJO", "[-]$com[0] is not a command\n") ;
+                  }
 
 }#case
 
