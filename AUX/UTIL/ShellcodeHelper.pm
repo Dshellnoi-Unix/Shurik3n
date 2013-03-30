@@ -32,6 +32,7 @@ sub new {
     
      my $self =  ( { Title        => "ShellcodeHelper",
                     Author        => "Dshellnoi Unix",
+                    Type          => "AUX",
                     Date          => "26.03.2013",
                     Ranking       => "Good", 
                     Webauthor     => "http://templesec.org", 
@@ -39,7 +40,7 @@ sub new {
 
                     ARG           => [
                                       ["STR"   ,"Sets Str to convert" ,1]
-                                     ],
+                                     ]
                   
 
 

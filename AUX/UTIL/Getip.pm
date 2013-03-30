@@ -33,7 +33,9 @@ sub new {
     
      my $self =  ( { Title        => "Get ip",
                     Author        => "Dshellnoi Unix",
-                    Date          => "25.03.2013", 
+                    Type          => "AUX",
+                    Date          => "25.03.2013",
+                    Ranking       => "Normal", 
                     Webauthor     => "http://templesec.org", 
                     Descrition    =>qq[Module to get ip from the console
                                        ],
