@@ -27,6 +27,7 @@ use LIBS::GNRL::Shell ;
 use LIBS::GNRL::Cmd ;
 use strict ;
 use LIBS::GNRL::Show ;
+use LIBS::GNRL::Colores;
 
 
 my $cmd =  LIBS::GNRL::Cmd->new();
