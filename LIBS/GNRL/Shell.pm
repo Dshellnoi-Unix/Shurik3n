@@ -232,9 +232,30 @@ case "HELP"       {
                    my $ayuda = LIBS::GNRL::Help->new();
                       $ayuda->help(); 
                   }
+
+case "SYS"        { 
+                      
+                     if(scalar(@com) < 2 ){ 
+                                           my $test =  LIBS::GNRL::Colores->new(); 
+                                           $test->pinta("ROJO", "[-] no arguments for the system\n") ;
+                                           goto SHELL;
+                                          }
+
+                     shift(@com) ;
+                     my $comando_systema ;
+                     for my $tt (@com){
+                       $comando_systema .= " " .$tt ;
+                     }
+                     
+
+                     system("$comando_systema"); 
+                  }
+
 else              {
-                   my $test =  LIBS::GNRL::Colores->new(); 
-                      $test->pinta("ROJO", "[-]$com[0] is not a command\n") ;
+                     if(! length($com[0]) == 0 || ! $com[0] eq ' ' ){
+                                my $test =  LIBS::GNRL::Colores->new(); 
+                                $test->pinta("ROJO", "[-]$com[0] is not a command\n") ;
+                              }
                   }
 
 }#case

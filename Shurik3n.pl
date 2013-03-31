@@ -19,7 +19,7 @@
 #   VERSION      :      0.1                            
 #                                                                
 #   LICENCIA:                                                 
-#            SUJETO A LA LICENCIA SHURIK3N WEB TOOL           
+#            SUJETO A LA LICENCIA SHURIK3N            
 ####
 
 use LIBS::GNRL::Creditos ;
@@ -43,6 +43,23 @@ BANNER :
 my $test =  LIBS::GNRL::Colores->new(); 
    $test->pinta("AMARILLO", $banner) ;
    print "\n" ;
+
+
+#
+# SOMOS ROOT
+#
+
+my $color =  LIBS::GNRL::Colores->new(); 
+
+my $user = $< ;
+
+if($user !=0 ){
+
+ $color->pinta("ROJO", "[-]Be root my friend\n") ;
+exit ;
+
+}
+
 
 #
 # CONTADORES
@@ -85,7 +102,9 @@ $work->shell($cmd);
 
 
 
- 
+
+
+
 
 
 

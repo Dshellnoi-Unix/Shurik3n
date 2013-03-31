@@ -49,6 +49,7 @@ print "RUN------->Run a module\n";
 print "SHOW------>Displays all modules\n";
 print "AUX------->Displays aux modules\n";
 print "EXPLOITS-->Displays all exploits\n";
+print "SYS------->Running a system command\n";
 print "HELP------>Help shurik3n\n";
 }
 

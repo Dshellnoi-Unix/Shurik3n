@@ -55,13 +55,14 @@ my @modulos = (
                "Module::Load",
                "Module::Util",
                "Term::Screen",
-               "Switch" 
+               "Switch",
+               "LWP::Protocol::socks" 
               );
 
 
 for my $modulo (@modulos) {
         
-  $color->pinta("AMARILLO", "[+]installing $modulo \n") ;
+  $color->pinta("AMARILLO", "[+]installing $modulos[$i] \n") ;
         sleep 1;
      
         system("cpan $modulo");
