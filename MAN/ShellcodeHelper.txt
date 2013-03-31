@@ -1,0 +1,44 @@
+####
+#  _________.__                 .__ __    ________         
+# /   _____/|  |__  __ _________|__|  | __\_____  \  ____  
+# \_____  \ |  |  \|  |  \_  __ \  |  |/ /  _(__  < /    \ 
+# /        \|   Y  \  |  /|  | \/  |    <  /       \   |  \
+#/_______  /|___|  /____/ |__|  |__|__|_ \/______  /___|  /
+#        \/      \/                     \/       \/     \/ 
+#                AUX::UTIL::ShellcodeHelper                                                                        
+####
+            [Descrition]
+
+ Converts str to 32b memory addresses
+
+     [CONFIGURATION PARAMETERS]
+               
+ [STR]::[Sets Str to convert]::[It is obligatory]
+
+              [USE]
+
+((Shurik3n)))->load AUX::UTIL::ShellcodeHelper
+((Shurik3n))AUX::UTIL::ShellcodeHelper)->conf str /bin/bash///
+[STR]-->/bin/bash///
+((Shurik3n))AUX::UTIL::ShellcodeHelper)->run
+========================
+Total Bytes::12
+Str to convert:
+/bin/bash///
+=========================
+ORIGINAL: /bin
+REVERSE : nib/
+MEM DIRE: 0x6e69622f
+HEX SHELLCODE:
+\x2f\x62\x69\x6e
+ORIGINAL: /bas
+REVERSE : sab/
+MEM DIRE: 0x7361622f
+HEX SHELLCODE:
+\x2f\x62\x61\x73
+ORIGINAL: h///
+REVERSE : ///h
+MEM DIRE: 0x2f2f2f68
+HEX SHELLCODE:
+\x68\x2f\x2f\x2f
+

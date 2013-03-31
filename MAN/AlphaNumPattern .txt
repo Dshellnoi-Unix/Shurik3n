@@ -1,0 +1,45 @@
+####
+#  _________.__                 .__ __    ________         
+# /   _____/|  |__  __ _________|__|  | __\_____  \  ____  
+# \_____  \ |  |  \|  |  \_  __ \  |  |/ /  _(__  < /    \ 
+# /        \|   Y  \  |  /|  | \/  |    <  /       \   |  \
+#/_______  /|___|  /____/ |__|  |__|__|_ \/______  /___|  /
+#        \/      \/                     \/       \/     \/ 
+#              AUX::UTIL::AlphaNumPattern                                                                        
+####
+            [Descrition]
+
+ Create pattern numeric, alphanumeric
+
+
+     [CONFIGURATION PARAMETERS]
+           
+[NUM]::[Sets the num set the length of the pattern]::[It is obligatory]
+
+[NUMERIC]::[Sets YES for numeric]::[It is optional, you can choose between numeric, alpha]
+
+[ALPHA]::[Sets YES for alphanumeric]::[It is optional, you can choose between numeric, alpha]
+
+
+              [USE]
+
+For numeric pattern :
+
+((Shurik3n))AUX::UTIL::AlphaNumPattern)->conf num 100
+[NUM]-->100
+((Shurik3n))AUX::UTIL::AlphaNumPattern)->conf numeric yes 
+[NUMERIC]-->yes
+((Shurik3n))AUX::UTIL::AlphaNumPattern)->run
+9657351787865344513273577645817524926595751997868432171264973266144216283638649781536965588217148591
+
+
+
+For alphanumeric pattern :
+
+((Shurik3n)))->load AUX::UTIL::AlphaNumPattern
+((Shurik3n))AUX::UTIL::AlphaNumPattern)->conf num 100
+[NUM]-->100
+((Shurik3n))AUX::UTIL::AlphaNumPattern)->conf alpha yes
+[ALPHA]-->yes
+((Shurik3n))AUX::UTIL::AlphaNumPattern)->run
+bIxqM7tFDOh3iGYjj68UYEKPePcIy1wO5veBVHTlrJjprHxopy2W1IK88sKlPohWuzBl7BmTrLSWuaOHsURKpkZ4bBXUq8XptZLH

@@ -1,0 +1,22 @@
+####
+#  _________.__                 .__ __    ________         
+# /   _____/|  |__  __ _________|__|  | __\_____  \  ____  
+# \_____  \ |  |  \|  |  \_  __ \  |  |/ /  _(__  < /    \ 
+# /        \|   Y  \  |  /|  | \/  |    <  /       \   |  \
+#/_______  /|___|  /____/ |__|  |__|__|_ \/______  /___|  /
+#        \/      \/                     \/       \/     \/ 
+#                    AUX::UTIL::Getip                                                                        
+####
+            [Descrition]
+
+ Module to get ip from the console
+
+     [CONFIGURATION PARAMETERS]
+               
+               none
+
+              [USE]
+
+((Shurik3n)))->load AUX::UTIL::Getip
+((Shurik3n))AUX::UTIL::Getip)->run
+83.40.156.63 
