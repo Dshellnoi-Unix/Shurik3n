@@ -1,0 +1,65 @@
+####
+#  _________.__                 .__ __    ________         
+# /   _____/|  |__  __ _________|__|  | __\_____  \  ____  
+# \_____  \ |  |  \|  |  \_  __ \  |  |/ /  _(__  < /    \ 
+# /        \|   Y  \  |  /|  | \/  |    <  /       \   |  \
+#/_______  /|___|  /____/ |__|  |__|__|_ \/______  /___|  /
+#        \/      \/                     \/       \/     \/ 
+#              AUX::UTIL::FileDiscoverer                                                                        
+####
+            [Descrition]
+
+ Module to search for files or admin panels
+
+
+     [CONFIGURATION PARAMETERS]
+
+[DIC]::[Set the dic, conf your own with the path]::[It is obligatory]
+
+[UA]::[Set the User Agent]::[It is optional]
+
+[PROXY]::[Set the proxy]::[It is optional] (Only works with sock4 or sock 5)
+
+[TARGET]::[Set the target]::[It is obligatory]
+
+[PT]::[Set the path]::::[It is obligatory]
+
+
+              [USE]
+
+((Shurik3n))AUX::UTIL::FileDiscoverer)->conf target http://templesec.org
+[TARGET]-->http://templesec.org
+((Shurik3n))AUX::UTIL::FileDiscoverer)->conf pt /
+[PT]-->/
+((Shurik3n))AUX::UTIL::FileDiscoverer)->conf dic def
+[DIC]-->def
+((Shurik3n))AUX::UTIL::FileDiscoverer)->conf ua 4
+[UA]-->Mozilla/4.0 (PDA; PalmOS/sony/model prmr/Revision:1.1.54 (en)) NetFront/3.0
+((Shurik3n))AUX::UTIL::FileDiscoverer)->conf proxy  socks4://110.6.167.244:6673
+[PROXY]-->socks4://110.6.167.244:6673
+((Shurik3n))AUX::UTIL::FileDiscoverer)->run
+
+       [PROXY CONFIGURATION]
+
+Only works with sock4 or sock 5
+
+#socks5 or socks 4
+socks://60.220.129.34:6666
+
+#sock4
+ socks4://110.6.167.244:6673
+
+      [DIC CONFIGURATION]
+
+It has a default dictionary, but is very poor 
+you can add your own and also make less noise in the test server
+
+example :
+
+((Shurik3n))AUX::UTIL::FileDiscoverer)->conf dic /path/my_own_dictionary
+[DIC]-->/path/my_own_dictionary
+
+example for the default dictionary:
+
+((Shurik3n))AUX::UTIL::FileDiscoverer)->conf dic def
+[DIC]-->def
