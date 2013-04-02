@@ -251,6 +251,12 @@ case "SYS"        {
                      system("$comando_systema"); 
                   }
 
+case "FIND" 	  {
+	    			my $modules = LIBS::GNRL::Show->new();
+		    		return unless @com > 1;
+			    	$modules->find( $com[1] );
+				  }
+
 else              {
                      if(! length($com[0]) == 0 || ! $com[0] eq ' ' ){
                                 my $test =  LIBS::GNRL::Colores->new(); 

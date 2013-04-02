@@ -115,6 +115,27 @@ print "\n" ;
 
 }
 
+sub find {
+    my ($self, $search_term) = @_; 
+
+    #my $search_term_regex = qr/$search_term/i;
+
+    for ( my $j = 0; $j <= $#todo; $j++ ) { 
+        my (@entries);
+        opendir( DIR, "$todo[$j]" );
+        push @entries, grep { ! /^\./ } readdir( DIR );
+        closedir( DIR );
+
+        for ( my $i = 0; $i <= $#entries; $i++ ) { 
+            if ( $entries[ $i ] =~ /$search_term/i ) { 
+                my $path = $todo[ $j ] . "/" . $entries[ $i ];
+                print path_to_module( $path );
+                print "\n";
+            }   
+        }   
+    }   
+}
+
 
 
 sub listar_aux{
