@@ -226,6 +226,7 @@ my @keys = (
             "OSVDB",
             "CVE",
             "CWE",
+            "Tested",
             "Webauthor",
             "Descrition",
            );

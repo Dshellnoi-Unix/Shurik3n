@@ -56,7 +56,8 @@ my @modulos = (
                "Module::Util",
                "Term::Screen",
                "Switch",
-               "LWP::Protocol::socks" 
+               "LWP::Protocol::socks",
+               "HTML::Strip"
               );
 
 

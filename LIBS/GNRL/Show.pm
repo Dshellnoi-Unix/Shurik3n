@@ -21,7 +21,6 @@
 
 package LIBS::GNRL::Show ;
 use strict;
-use LIBS::GNRL::Colores ;
 use Module::Util qw(:all);
 use vars qw($VERSION @ISA);
 @ISA = qw();
@@ -62,7 +61,8 @@ my @todo =(
             "EXPLOITS/S.O/MAC",
             "EXPLOITS/S.O/UNIX",
             "EXPLOITS/S.O/WINDOWS",
-            "EXPLOITS/S.O/GENERICS"
+            "EXPLOITS/S.O/GENERICS",
+            "EXPLOITS/LFI"
 	       );
 
 
@@ -85,7 +85,8 @@ my @exploits = (
                 "EXPLOITS/S.O/MAC",
                 "EXPLOITS/S.O/UNIX",
                 "EXPLOITS/S.O/WINDOWS",
-                "EXPLOITS/S.O/GENERICS"
+                "EXPLOITS/S.O/GENERICS",
+                "EXPLOITS/LFI"
 	           );
 
 
