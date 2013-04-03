@@ -1,0 +1,75 @@
+####
+#  _________.__                 .__ __    ________         
+# /   _____/|  |__  __ _________|__|  | __\_____  \  ____  
+# \_____  \ |  |  \|  |  \_  __ \  |  |/ /  _(__  < /    \ 
+# /        \|   Y  \  |  /|  | \/  |    <  /       \   |  \
+#/_______  /|___|  /____/ |__|  |__|__|_ \/______  /___|  /
+#        \/      \/                     \/       \/     \/ 
+#                AUX::UTIL::SocksCheck                                                                        
+####
+            [Descrition]
+
+    Module to check socks4 && socks5
+
+
+     [CONFIGURATION PARAMETERS]
+
+
+
+[DIC]::[Set the dic with socks, conf your own with the path]::[It is obligatory]
+
+[UA]::[Set the User Agent]::[It is optional]
+
+              [USE]
+
+((Shurik3n))AUX::UTIL::SocksCheck)->load AUX::UTIL::SocksCheck
+((Shurik3n))AUX::UTIL::SocksCheck)->conf dic DICC/SOCKS
+[DIC]-->DICC/SOCKS
+((Shurik3n))AUX::UTIL::SocksCheck)->conf ua 3
+[UA]-->Mozilla/3.0 (compatible; Opera/3.0; Windows 3.1) v3.1
+((Shurik3n))AUX::UTIL::SocksCheck)->run
+[-]Unable to connect socks://115.46.201.212:6675
+[+]Satus [200] socks://190.19.74.223:42985
+[+]Country:Argentina Longitude:-34.5875 Latitude:-58.6725  
+[+]Satus [200] socks://78.63.208.158:13579
+[+]Country:Lithuania Longitude:54.6833 Latitude:25.3167  
+[-]Unable to connect socks://112.241.183.218:6668
+[-]Unable to connect socks://219.231.194.55:6666
+[-]Unable to connect socks://115.46.201.212:6675
+[-]Unable to connect socks://60.9.250.170:6666
+[+]Satus [200] socks://222.174.163.2:1080
+[+]Country:China Longitude:36.6683 Latitude:116.9972  
+[-]Unable to connect socks://113.56.77.48:6666
+[-]Unable to connect socks://180.211.191.250:1080
+[-]Unable to connect socks://1.207.40.163:6675
+[-]Unable to connect socks://110.124.205.92:6666
+[+]Satus [200] socks://61.166.55.153:11110
+[+]Country:China Longitude:25.0389 Latitude:102.7183  
+[-]Unable to connect socks://117.66.133.38:6666
+[-]Unable to connect socks://121.25.247.130:6668
+
++---------------------------+
+            INFO               
++---------------------------+
+[+]Total analyzed socks 15
+[+]Total working socks 4
+
+This product includes GeoLite data created by MaxMind, available from
+http://www.maxmind.com
+
+
+
+      [DIC CONFIGURATION]
+
+It has a default dictionary, is just an example 
+you can add your own .
+
+example :
+
+((Shurik3n))AUX::UTIL::SocksCheck)->conf dic PATH/MY DIC SOCKS
+[DIC]-->PATH/MY DIC SOCKS
+
+example for the default dictionary:
+
+((Shurik3n))AUX::UTIL::SocksCheck)->conf dic def
+[DIC]-->def

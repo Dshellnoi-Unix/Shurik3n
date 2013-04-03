@@ -42,13 +42,13 @@ sub new {
      my $self =  ( { Title         => "SocksCheck",
                      Author        => "Dshellnoi Unix",
                      Type          => "AUX",
-                     Date          => "26.03.2013", 
+                     Date          => "03.04.2013", 
                      Ranking       => "Normal",
                      Webauthor     => "http://templesec.org", 
                      Descrition    =>qq[Module to check socks4 && socks5 ],
                      ARG           => [
-                                      ["DIC"   ,"Set the ",1],
-                                      ["UA"    ,"Set the User Agent"   ,0]
+                                      ["DIC"   ,"Set the dic with socks",1],
+                                      ["UA"    ,"Set the User Agent"    ,0]
                                       ],
                   
 

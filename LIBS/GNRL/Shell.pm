@@ -252,10 +252,10 @@ case "SYS"        {
                   }
 
 case "FIND" 	    {
-	    			       my $modules = LIBS::GNRL::Show->new();
-		    		       return unless @com > 1;
-			    	       $modules->find( $com[1] );
-				          }
+	    	     my $modules = LIBS::GNRL::Show->new();
+		     return unless @com > 1;
+	             $modules->find( $com[1] ); 
+                    }
 
 case "CR"         { 
                    my $test =  LIBS::GNRL::Colores->new(); 
