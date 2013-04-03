@@ -1,0 +1,29 @@
+####
+#  _________.__                 .__ __    ________         
+# /   _____/|  |__  __ _________|__|  | __\_____  \  ____  
+# \_____  \ |  |  \|  |  \_  __ \  |  |/ /  _(__  < /    \ 
+# /        \|   Y  \  |  /|  | \/  |    <  /       \   |  \
+#/_______  /|___|  /____/ |__|  |__|__|_ \/______  /___|  /
+#        \/      \/                     \/       \/     \/ 
+#                   AUX::UTIL::Md5Crack                                                                        
+####
+            [Descrition]
+
+      Module to crack md5 hash
+
+     [CONFIGURATION PARAMETERS]
+
+[UA]::[Set the User Agent]::[It is obligatory]         
+
+[HASH]::[Set the md5 hash]::[It is obligatory] 
+
+              [USE]
+
+((Shurik3n)))->load AUX::UTIL::Md5Crack
+((Shurik3n))AUX::UTIL::Md5Crack)->conf ua 2
+[UA]-->Mozilla/2.0 (compatible; MSIE 3.02; Update a; AOL 3.0; Windows 95)
+((Shurik3n))AUX::UTIL::Md5Crack)->conf hash e3afed0047b08059d0fada10f400c1e5
+[HASH]-->e3afed0047b08059d0fada10f400c1e5
+((Shurik3n))AUX::UTIL::Md5Crack)->run
+[+]Found::[Admin]::[e3afed0047b08059d0fada10f400c1e5]
+ 
