@@ -57,7 +57,8 @@ my @modulos = (
                "Term::Screen",
                "Switch",
                "LWP::Protocol::socks",
-               "HTML::Strip"
+               "HTML::Strip",
+               "Geo::IP::PurePerl"
               );
 
 
