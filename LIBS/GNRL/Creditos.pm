@@ -9,13 +9,8 @@ $banner ='
  /        \|   Y  \  |  /|  | \/  |    <  /       \   |  \
 /_______  /|___|  /____/ |__|  |__|__|_ \/______  /___|  /
         \/      \/                     \/       \/     \/ 
-
-                    Dshellnoi Unix  2013
 ';
 
 
 
-%desarrolladores=(
-                   "Ingeriero de software" => "Dshellnoi Unix"
-
-);
+1;

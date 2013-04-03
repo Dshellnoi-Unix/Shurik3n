@@ -51,7 +51,8 @@ print "AUX------->Displays aux modules\n";
 print "EXPLOITS-->Displays all exploits\n";
 print "SYS------->Running a system command\n";
 print "FIND------>Find modules using a regular expression\n";
-print "HELP------>Help shurik3n\n";
+print "CR-------->Credits Shurik3n\n";
+print "HELP------>Help Shurik3n\n";
 }
 
 1;

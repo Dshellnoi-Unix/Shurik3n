@@ -87,7 +87,7 @@ case "CLEAR"      {
 case  "EXIT"      {
     	             my $cmd =  LIBS::GNRL::Cmd->new();
                       $cmd->clean() ;
-                   my $msg = "Technology Powered by : Dshellnoi Unix  =^.^=";
+                   my $msg = "Technology Powered by : Dshellnoi Unix | Idrek  =^.^=";
                    my $test =  LIBS::GNRL::Colores->new(); 
                       $test->pinta("ROJO", $msg) ;
                       print "\n"; 
@@ -251,11 +251,17 @@ case "SYS"        {
                      system("$comando_systema"); 
                   }
 
-case "FIND" 	  {
-	    			my $modules = LIBS::GNRL::Show->new();
-		    		return unless @com > 1;
-			    	$modules->find( $com[1] );
-				  }
+case "FIND" 	    {
+	    			       my $modules = LIBS::GNRL::Show->new();
+		    		       return unless @com > 1;
+			    	       $modules->find( $com[1] );
+				          }
+
+case "CR"         { 
+                   my $test =  LIBS::GNRL::Colores->new(); 
+                      $test->pinta("AMARILLO", "          Ingeniero de software => Dshellnoi Unix\n"); 
+                      $test->pinta("AMARILLO", "          Ingeniero de software => Idrek\n");
+                  }
 
 else              {
                      if(! length($com[0]) == 0 || ! $com[0] eq ' ' ){
