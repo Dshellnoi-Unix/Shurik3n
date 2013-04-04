@@ -39,10 +39,11 @@ sub new {
     my($class, $data) = @_; #Agregamos las variables en la lista para crear el objeto y bendecir despues
     
     my $self = { 
-    	        _DATA  => undef,
-    	        _PR    => undef,
-                _URI   => undef,
-                _PT    => undef 
+    	         _DATA  => undef,
+    	         _PR    => undef,
+                 _URI   => undef,
+                 _PT    => undef,
+                 _IP    => undef 
 
                };  
     
@@ -138,4 +139,41 @@ if($self->{'_PT'} !~ /^\//) {
 }
 
 
-1; 
+
+
+#
+# CMP IP
+#
+sub cmp_ip
+{
+
+my($self,$ip) = @_;
+
+
+$self->{'_IP'} = $ip if @_ ;
+
+if( $self->{'_IP'} =~ m/^(\d\d?\d?)\.(\d\d?\d?)\.(\d\d?\d?)\.(\d\d?\d?)$/ )
+{
+ 
+if($1 <= 255 && $2 <= 255 && $3 <= 255 && $4 <= 255)
+{
+
+}
+else
+{
+my $test =  LIBS::GNRL::Colores->new(); 
+   $test->pinta("ROJO", "[-]Octets is out of range\n") ;
+   goto SHELL ;  
+}
+}
+else
+{
+my $test =  LIBS::GNRL::Colores->new(); 
+   $test->pinta("ROJO", "[-]$self->{'_IP'} Not a valid ip \n") ;
+   goto SHELL ; 
+}
+
+
+}
+
+1;
