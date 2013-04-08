@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+ <WP-themes  Type="Theme" LastUpdate="8-4-2013" Total="12">
+
+    <theme name="shotzz">
+
+         <temname>shotzz</temname>
+
+         <tit>Wordpress Themes shotzz Full Path Disclosure</tit>
+        
+         <version>N/A</version>
+
+         <adv>http://1337day.com/exploit/20041</adv>
+
+         <vuln>FULL PATH DISCLOSURE</vuln>
+
+    </theme>
+
+    <theme name="yvora">
+
+         <temname>vithy</temname>
+
+         <tit>Wordpress Themes  yvora Full Path Disclosure</tit>
+        
+         <version>N/A</version>
+
+         <adv>http://www.priv8.1337day.com/exploit/20038</adv>
+
+         <vuln>FUL PATH DISCLOSURE</vuln>
+
+    </theme>
+
+    <theme name="vithy">
+
+         <temname>vithy</temname>
+
+         <tit>Wordpress Themes  vithy Full Path Disclosure</tit>
+        
+         <version>N/A</version>
+
+         <adv>http://1337day.com/exploit/20040</adv>
+
+         <vuln>FUL PATH DISCLOSURE</vuln>
+
+    </theme>
+
+    <theme name="appius">
+
+         <temname>appius</temname>
+
+         <tit>Wordpress Themes appius Full Path Disclosure</tit>
+        
+         <version>N/A</version>
+
+         <adv>http://1337day.com/exploit/20039</adv>
+
+         <vuln>FUL PATH DISCLOSURE</vuln>
+
+    </theme>
+
+     <theme name="sandbox">
+
+         <temname>sandbox</temname>
+
+         <tit>Wordpress theme sandbox Arbitrary File Upload</tit>
+        
+         <version>N/A</version>
+
+         <adv>http://1337day.com/exploit/20228</adv>
+
+         <vuln>ARBITRARY FILE UPLOAD</vuln>
+
+    </theme>
+
+     <theme name="moneymasters">
+
+         <temname>moneymasters</temname>
+
+         <tit>Wordpress Themes moneymasters Full Path Disclosure</tit>
+        
+         <version>N/A</version>
+
+         <adv>http://1337day.com/exploit/20077</adv>
+
+         <vuln>FUL PATH DISCLOSURE</vuln>
+
+    </theme>
+
+    <theme name="sahifa">
+
+         <temname>sahifa</temname>
+
+         <tit>Wordpress Sahifa theme 2.4.0 CSRF  FULL PATH DISCLOSURE</tit>
+        
+         <version>2.4.0</version>
+
+         <adv>http://1337day.com/exploit/20097</adv>
+
+         <vuln>CSRF | FULL PATH DISCLOSURE</vuln>
+
+    </theme>
+
+    <theme name="display">
+
+         <temname>display</temname>
+
+         <tit>Wordpress display theme Full Path Disclosure</tit>
+        
+         <version>N/A</version>
+
+         <adv>http://1337day.com/exploit/20166</adv>
+
+         <vuln>CSRF | FULL PATH DISCLOSURE</vuln>
+
+    </theme>
+
+    <theme name="slash">
+
+         <temname>slash</temname>
+
+         <tit>Wordpress slash theme Full Path Disclosure</tit>
+        
+         <version>N/A</version>
+
+         <adv>http://1337day.com/exploit/20167</adv>
+
+         <vuln>FULL PATH DISCLOSURE</vuln>
+
+    </theme>
+
+    <theme name="striking">
+
+         <temname>striking</temname>
+
+         <tit>Wordpress striking theme Full Path Disclosure</tit>
+        
+         <version>N/A</version>
+
+         <adv>http://1337day.com/exploit/20168</adv>
+
+         <vuln>FULL PATH DISCLOSURE</vuln>
+
+    </theme>
+
+    <theme name="eggo">
+
+         <temname>eggo</temname>
+
+         <tit>Wordpress eggo theme Full Path Disclosure</tit>
+        
+         <version>N/A</version>
+
+         <adv>http://1337day.com/exploit/20201</adv>
+
+         <vuln>FULL PATH DISCLOSURE</vuln>
+
+    </theme>
+
+    <theme name="massimo">
+
+         <temname>massimo</temname>
+
+         <tit>Wordpress eggo theme Full Path Disclosure</tit>
+        
+         <version>N/A</version>
+
+         <adv>http://1337day.com/exploit/20202</adv>
+
+         <vuln>FULL PATH DISCLOSURE</vuln>
+
+    </theme>
+
+</WP-themes>    

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+ <WP-Plugins-vuln  Type="Plugins" LastUpdate="8-4-2013" Total="39">
+
+    <plug name="bp_gallery">
+
+         <plugname>bp-gallery</plugname>
+
+         <tit>Wordpress bp-gallery plugin v1.2.5 Cross Site Scripting</tit>
+        
+         <version>1.2.5</version>
+
+         <adv>http://1337day.com/exploit/20518</adv>
+
+         <vuln>XSS</vuln>
+
+    </plug>
+
+    <plug name="wp_video_commando">
+
+          <plugname>wp-video-commando</plugname>
+
+          <tit>Wordpress Plugin wp-video-commando XSS</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20576</adv>
+     
+          <vuln>XSS</vuln>
+   
+    </plug>
+
+   <plug name="comment_rating">
+
+          <plugname>comment-rating</plugname>
+
+          <tit>Comment Rating SQL injection</tit>
+      
+          <version>2.9.32</version>
+      
+          <adv>http://1337day.com/exploit/20446</adv>
+     
+          <vuln>SQLI</vuln>
+   
+    </plug>
+
+    <plug name="wp_e_commerce">
+
+          <plugname>wp-e-commerce</plugname>
+
+          <tit>Wordpress WP-e-Commerce plugin v3.8.9.5 Cross Site Scripting</tit>
+      
+          <version>v3.8.9.5 </version>
+      
+          <adv>http://1337day.com/exploit/20517</adv>
+     
+          <vuln>XSS</vuln>
+   
+    </plug>
+
+    <plug name="googlealertandtwitter">
+
+          <plugname>googlealertandtwitter</plugname>
+
+          <tit>Google Alert And Twitter WP Plugin v. 3.1.5 XSS Exploit and SQL Injection</tit>
+      
+          <version>v. 3.1.5</version>
+      
+          <adv>http://1337day.com/exploit/20433</adv>
+     
+          <vuln>XSS | SQLI</vuln>
+   
+    </plug>
+
+     <plug name="ckeditor_for_wordpress">
+
+          <plugname>ckeditor-for-wordpress</plugname>
+
+          <tit>Wordpress plugin CKEditor 4.0 Arbitrary File Upload Exploit</tit>
+      
+          <version>4.0</version>
+      
+          <adv>http://1337day.com/exploit/20318</adv>
+     
+          <vuln>ARBITRARY FILE UPLOAD</vuln>
+   
+    </plug>
+
+    <plug name="dynamic_font_replacement_4wp">
+
+          <plugname>dynamic-font-replacement-4wp</plugname>
+
+          <tit>Wordpress plugin dynamic-font-replacement-4wp Arbitrary File Upload</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20299</adv>
+     
+          <vuln>FULL PATH DISCLOSURE | ARBITRARY FILE UPLOAD</vuln>
+   
+    </plug>
+
+    <plug name="forumconverter">
+
+          <plugname>forumconverter</plugname>
+
+          <tit>Wordpress plugins ForumConverter SQL Injection</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20275</adv>
+     
+          <vuln>SQLI</vuln>
+   
+    </plug>
+
+    <plug name="p1m_media_manager">
+
+          <plugname>p1m-media-manager</plugname>
+
+          <tit>WordPress p1m media manager plugin SQL Injection</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20270</adv>
+     
+          <vuln>SQLI</vuln>
+   
+    </plug>
+
+    <plug name="o2s_gallery">
+
+          <plugname>o2s-gallery</plugname>
+
+          <tit>Wordpress o2s-gallery plugin Cross Site Scripting</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20516</adv>
+     
+          <vuln>XSS</vuln>
+   
+    </plug>
+
+    <plug name="RLSWordPressSearch">
+
+          <plugname>RLSWordPressSearch</plugname>
+
+          <tit>Wordpress RLSWordPressSearch plugin SQL Injection</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20265</adv>
+     
+          <vuln>SQLI</vuln>
+   
+    </plug>
+
+    <plug name="wp_royal_gallery">
+
+          <plugname>wp-royal-gallery</plugname>
+
+          <tit>Wordpress plugin wp-royal-gallery Arbitrary File Upload</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20261</adv>
+     
+          <vuln>ARBITRARY FILE UPLOAD</vuln>
+   
+    </plug>
+
+    <plug name="wp_homepage_slideshow">
+
+          <plugname>wp-homepage-slideshow</plugname>
+
+          <tit>Wordpress plugin wp-homepage-slideshow Arbitrary File Upload</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20260</adv>
+     
+          <vuln>ARBITRARY FILE UPLOAD</vuln>
+   
+    </plug>
+
+     <plug name="wp_image_news_slider">
+
+          <plugname>wp-image-news-slider</plugname>
+
+          <tit>Wordpress plugin wp-image-news-slider Arbitrary File Upload</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20259</adv>
+     
+          <vuln>ARBITRARY FILE UPLOAD</vuln>
+   
+    </plug>
+
+    <plug name="wp_catpro">
+
+          <plugname>wp-catpro</plugname>
+
+          <tit>Wordpress plugins - wp-catpro Arbitrary File Upload</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20256</adv>
+     
+          <vuln>ARBITRARY FILE UPLOAD</vuln>
+   
+    </plug>
+
+    <plug name="wp_3dflick_slideshow">
+
+          <plugname>wp-3dflick-slideshow</plugname>
+
+          <tit>Wordpress plugins wp-3dflick-slideshow Arbitrary File Upload</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20255</adv>
+     
+          <vuln>ARBITRARY FILE UPLOAD</vuln>
+   
+    </plug>
+
+    <plug name="accordion">
+
+          <plugname>accordion</plugname>
+
+          <tit>Wordpress plugins accordion Arbitrary File Upload</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20254</adv>
+     
+          <vuln>ARBITRARY FILE UPLOAD</vuln>
+   
+    </plug>
+
+    <plug name="power_zoomer">
+
+          <plugname>power-zoomer</plugname>
+
+          <tit>Wordpress plugins powerzoomer Arbitrary File Upload</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20253</adv>
+     
+          <vuln>ARBITRARY FILE UPLOAD</vuln>
+   
+    </plug>
+
+    <plug name="wp_powerplaygallery">
+
+          <plugname>wp-powerplaygallery</plugname>
+
+          <tit>Wordpress plugins wp-powerplaygallery Arbitrary File Upload</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20252</adv>
+     
+          <vuln>ARBITRARY FILE UPLOAD</vuln>
+   
+    </plug>
+
+    <plug name="sitepress_multilingual_cms">
+
+          <plugname>sitepress-multilingual-cms</plugname>
+
+          <tit>Wordpress plugins- sitepress-multilingual-cms Full Path Disclosure</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20067</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+    <plug name="superslider_show">
+
+          <plugname>superslider-show</plugname>
+
+          <tit>Wordpress plugin superslider-show Full Path Disclosure</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20117</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+    <plug name="wordpress_multibox_plugin">
+
+          <plugname>wordpress-multibox-plugin</plugname>
+
+          <tit>Wordpress plugin superslider-show Full Path Disclosure</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20119</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+    <plug name="admin_menu_editor">
+
+          <plugname>admin-menu-editor</plugname>
+
+          <tit>Wordpress admin-menu-editor plugin Full Path Disclosure</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20127</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+    <plug name="wp_super_cache">
+
+          <plugname>wp-super-cache</plugname>
+
+          <tit>Wordpress wp-super-cache plugin Full Path Disclosure</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20128</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+    <plug name="wp_events">
+
+          <plugname>wp-events</plugname>
+
+          <tit>Wordpress wp-events plugin Full Path Disclosure</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20133</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+     <plug name="wp_newsletter_simples">
+
+          <plugname>wp-newsletter-simples</plugname>
+
+          <tit>Wordpress wp-newsletter-simples plugin Full Path Disclosure</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20149</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+    <plug name="haiku_minimalist_audio_player">
+
+          <plugname>haiku-minimalist-audio-player</plugname>
+
+          <tit>Wordpress haiku-minimalist-audio-player plugin Full Path Disclosure</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20150</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+    <plug name="sem_wysiwyg">
+
+          <plugname>sem-wysiwyg</plugname>
+
+          <tit>Wordpress sem WYSIWYG Arbitrary File Upload</tit>
+      
+          <version>N/A</version>
+      
+          <adv>http://1337day.com/exploit/20233</adv>
+     
+          <vuln>ARBITRARY FILE UPLOAD</vuln>
+   
+    </plug>
+
+    <plug name="ripe_hd_player">
+
+          <plugname>ripe-hd-player</plugname>
+
+          <tit>Wordpress plugins - ripe-hd-player FD/SQL Injection</tit>
+      
+          <version>N/A</version>
+          
+          <adv>http://1337day.com/exploit/20199</adv>
+     
+          <vuln>SQLI | FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+    <plug name="ipfeuilledechou">
+
+          <plugname>ipfeuilledechou</plugname>
+
+          <tit>Wordpress plugins - ipfeuilledechou SQL Injection</tit>
+      
+          <version>N/A</version>
+          
+          <adv>http://1337day.com/exploit/20206</adv>
+     
+          <vuln>SQLI</vuln>
+   
+    </plug>
+
+    <plug name="dynamic_headers">
+
+          <plugname>dynamic-headers</plugname>
+
+          <tit>Wordpress dynamic-headers plugin Full Path Disclosure</tit>
+      
+          <version>N/A</version>
+          
+          <adv>http://1337day.com/exploit/20151</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+     <plug name="ultimate_security_check">
+
+          <plugname>ultimate-security-check</plugname>
+
+          <tit>Wordpress ultimate-security-check plugin Full Path Disclosure</tit>
+      
+          <version>N/A</version>
+          
+          <adv>http://1337day.com/exploit/20152</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+    <plug name="wp_polls">
+
+          <plugname>wp-polls</plugname>
+
+          <tit>Wordpress wp polls plugin Full Path Disclosure</tit>
+      
+          <version>N/A</version>
+          
+          <adv>http://1337day.com/exploit/20159</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+    <plug name="vote_it_up">
+
+          <plugname>vote-it-up</plugname>
+
+          <tit>Wordpress vote-it-up plugin Full Path Disclosure</tit>
+      
+          <version>N/A</version>
+          
+          <adv>http://1337day.com/exploit/20161</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+    <plug name="dynamic_font_replacement_4wp">
+
+          <plugname>dynamic-font-replacement-4wp</plugname>
+
+          <tit>Wordpress Dynamic Font Replacement 1.3 plugin SQL Injection</tit>
+      
+          <version>1.3</version>
+          
+          <adv>http://1337day.com/exploit/20239</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+    <plug name="wordpress_multibox_plugin">
+
+          <plugname>wordpress-multibox-plugin</plugname>
+
+          <tit>Wordpress wordpress multibox plugin FPD</tit>
+      
+          <version>N/A</version>
+          
+          <adv>N/A Dshellnoi Unix</adv>
+     
+          <vuln>FULL PATH DISCLOSURE</vuln>
+   
+    </plug>
+
+    <plug name="timelineoptinpro">
+
+          <plugname>timelineoptinpro</plugname>
+
+          <tit>Wordpress plugins timelineoptinpro XSS</tit>
+      
+          <version>N/A</version>
+          
+          <adv>http://1337day.com/exploit/20620</adv>
+     
+          <vuln>XSS</vuln>
+   
+    </plug>
+
+    <plug name="fbsurveypro">
+
+          <plugname>fbsurveypro</plugname>
+
+          <tit>Wordpress plugins fbsurveypro XSS</tit>
+      
+          <version>N/A</version>
+          
+          <adv>http://1337day.com/exploit/20623</adv>
+     
+          <vuln>XSS</vuln>
+   
+    </plug>
+
+    <plug name="kioskprox">
+
+          <plugname>kioskprox</plugname>
+
+          <tit>Wordpress plugins kioskprox XSS</tit>
+      
+          <version>N/A</version>
+          
+          <adv>http://1337day.com/exploit/20624</adv>
+     
+          <vuln>XSS</vuln>
+   
+    </plug>
+
+
+
+</WP-Plugins-vuln>
