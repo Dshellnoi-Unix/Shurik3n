@@ -58,7 +58,8 @@ my @modulos = (
                "Switch",
                "LWP::Protocol::socks",
                "HTML::Strip",
-               "Geo::IP::PurePerl"
+               "Geo::IP::PurePerl",
+               "XML::Simple"
               );
 
 
