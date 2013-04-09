@@ -81,8 +81,8 @@ my $test =  LIBS::GNRL::Colores->new();
    $test->pinta("AMARILLO", "[+]Country code: $dat[0]\n") ;
    $test->pinta("AMARILLO", "[+]Country     : $dat[2]\n") ;
    $test->pinta("AMARILLO", "[+]City        : $dat[4]\n") ;
-   $test->pinta("AMARILLO", "[+]Longitude   : $dat[6]\n") ;
-   $test->pinta("AMARILLO", "[+]Latitude    : $dat[7]\n\n") ;
+   $test->pinta("AMARILLO", "[+]Longitude   : $dat[7]\n") ;
+   $test->pinta("AMARILLO", "[+]Latitude    : $dat[6]\n\n") ;
 
 $test->pinta("AMARILLO", "This product includes GeoLite data created by MaxMind, available from\nhttp://www.maxmind.com\n\n");
 
