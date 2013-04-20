@@ -188,9 +188,6 @@ my @adv_tem     ;
 my @vuln_tem    ;
 
 
-my %directorios ;
-my  @dirs ;
-
 
 
 open(WP, "/tmp/salida.txt");
@@ -433,7 +430,7 @@ for(my $i =0; $i< scalar(@titulo) ; $i ++){
 
 print "[+]Title  :\n" ;
 print "$titulo[$i]\n" ;
-print "[+]Version : [$version[$i]\n";
+print "[+]Version : [$version[$i]]\n";
 print "[+]Vuln :$vuln[$i]\n";
 print "[+]Exploit | Advisory :\n";
 print "$adv[$i]"."\n\n\n";
@@ -523,24 +520,6 @@ for(my $i=0; $i < scalar(@bugs); $i++){
 
 
 
-switch ($bugs[$i]->{path_tipe}) {
-
-case "wp-content"    { 
-                    
-                      $pt_payload = "wp-content/";
-
-                     }
-
-case "wp-includes"   { 
-                    
-                     $pt_payload = "wp-includes/";
-                     }
-
-}
-
-
-
-
 
 my $ua = new LWP::UserAgent;
    $ua->timeout(60);
@@ -559,7 +538,7 @@ my $cmp_proxy = LIBS::GNRL::Texto->new();
 print "[+]looking for: $bugs[$i]->{tit}\n";
 
 
-my $response = $ua->get($url.$pt_payload.$bugs[$i]->{payload});
+my $response = $ua->get($url.$bugs[$i]->{payload});
 
 
 switch ($response->code) {
@@ -592,7 +571,6 @@ if($stop eq 1){
    last ;
  }
   }
-
 
 
 }
@@ -700,7 +678,7 @@ print "[+]Vuln :[$bugs[$founds[$j]]->{vuln}]\n";
 print "[+][Exploit | Advisory]:\n";
 print $bugs[$founds[$j]]->{adv}."\n";
 print "[+]Payload:\n";
-print $url.$pt_payload.$bugs[$founds[$j]]->{payload}."\n\n";
+print $url.$bugs[$founds[$j]]->{payload}."\n\n";
 
 }
 
