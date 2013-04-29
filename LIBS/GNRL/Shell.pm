@@ -100,10 +100,12 @@ case "UA"         {
                   }
 
 case "LOAD"       { 
+                  
                    my $test = LIBS::GNRL::Cargas->new(); 
                    my $modulo = $test->modulo_existe($com[1]);
                                 $test->modulo_valido($modulo);
-                   $ENV{'MODULO'} = $modulo   
+                   $ENV{'MODULO'} = $modulo ;
+                                $test->reset_params($ENV{'MODULO'});  
                   }
 
 case "BACK"       {
