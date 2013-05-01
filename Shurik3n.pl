@@ -71,10 +71,11 @@ my $contador = LIBS::GNRL::Show->new();
 my $util = $contador->count("AUX/UTIL");
 my $sqli = $contador->count("EXPLOITS/SQLI");
 my $lfi = $contador->count("EXPLOITS/LFI");
+my $local = $contador->count("EXPLOITS/LOCAL");
 
 #SUMAMOS 
 my $aux = $util ;
-my $exploits = $sqli + $lfi ;
+my $exploits = $sqli + $lfi + $local ;
 my $total = $aux + $exploits ;
 
 print "             ";

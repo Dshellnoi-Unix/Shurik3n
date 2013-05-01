@@ -62,7 +62,8 @@ my @todo =(
             "EXPLOITS/S.O/UNIX",
             "EXPLOITS/S.O/WINDOWS",
             "EXPLOITS/S.O/GENERICS",
-            "EXPLOITS/LFI"
+            "EXPLOITS/LFI",
+            "EXPLOITS/LOCAL"
 	       );
 
 
@@ -86,7 +87,8 @@ my @exploits = (
                 "EXPLOITS/S.O/UNIX",
                 "EXPLOITS/S.O/WINDOWS",
                 "EXPLOITS/S.O/GENERICS",
-                "EXPLOITS/LFI"
+                "EXPLOITS/LFI",
+                "EXPLOITS/LOCAL"
 	           );
 
 
