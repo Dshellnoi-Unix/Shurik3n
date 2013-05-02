@@ -59,7 +59,10 @@ my @modulos = (
                "LWP::Protocol::socks",
                "HTML::Strip",
                "Geo::IP::PurePerl",
-               "XML::Simple"
+               "XML::Simple",
+               "CGI::Enurl",
+               "JSON::XS",
+               "HTTP::Request::Common"
               );
 
 
@@ -73,7 +76,16 @@ for my $modulo (@modulos) {
         sleep 1;
     }
 
-
+$color->pinta("AMARILLO", "[+]Downloading SHODAN \n") ;
+system("wget http://github.com/downloads/achillean/shodan-perl/Shodan-0.3.tar.gz");
+$color->pinta("AMARILLO", "[+]installing SHODAN \n") ;
+system("tar zxvf Shodan-0.3.tar.gz");
+system("cd Shodan-0.3 && perl Makefile.PL");
+system("cd Shodan-0.3 && make");
+system("cd Shodan-0.3 && make install");
+system("rm -R  Shodan-0.3");
+system("rm Shodan-0.3.tar.gz");
 
 $color->pinta("AMARILLO", "[+]Congratulations, you can use Shurik3n\n") ;
+
 
